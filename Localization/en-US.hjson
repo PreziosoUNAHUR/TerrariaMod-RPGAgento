@@ -1,0 +1,205 @@
+Mods: {
+	RPGARGENTO: {
+		"Keybinds.Abrir Menu RPG.DisplayName": Open RPG Menu
+
+		Items: {
+			espadita: {
+				DisplayName: Little Sword
+				Tooltip: Test weapon
+			}
+
+			YunqueCaos: {
+				DisplayName: Chaos Anvil
+				Tooltip: Rolls for permanent stats.
+			}
+		}
+
+		UI: {
+			PuntosDisp: Available points: {0}
+			BtnAceptar: Accept
+			BtnReset: Reset
+			NivelMundo: World Level Cap: {0}
+			SubeNivel10: (Reach level 10 to unlock base class)
+			SubeNivel25: (Reach level 25 to advance your {0} class)
+			CatAtaque: Attack Statistics
+			CatDefensa: Defense Statistics
+			CatExtras: Extra Statistics
+			StatVida: Health
+			StatMana: Mana
+			StatArmadura: Armor
+			StatMelee: Melee
+			StatRanger: Ranger
+			StatMagic: Magic
+			StatSummon: Summon
+			StatSuerte: Luck
+			StatKnockback: Knockback
+			StatVelMov: Move Speed
+			ReduccionDano: Damage Reduction
+			ReduccionAggro: Aggro Reduction
+			TiempoVuelo: Flight Time
+			AvisoProgreso: The world has progressed! The level cap increased to {0}.
+			ClaseBase:
+				'''
+				Base Class: {0}
+
+				Active Bonuses:
+				{1}
+				'''
+			EvolucionaClase: Evolve your {0} class:
+			EresMaestro:
+				'''
+				You are a Master {0}!
+
+				Active Bonuses:
+				{1}
+				'''
+			BonoBaseMelee:
+				'''
+				+5% Melee Damage
+				+10 Max Health
+				+10% Movement Speed
+				+5 Armor
+				+2% Knockback
+				'''
+			BonoBaseRanger:
+				'''
+				+5% Ranger Damage
+				+15% Movement Speed
+				+2 Armor
+				+2 Jump Height
+				-5% Ammo Cost
+				-2 Aggro
+				+2% Critical Chance
+				'''
+			BonoBaseMagic:
+				'''
+				+5% Magic Damage
+				+10 Max Mana
+				+10% Movement Speed
+				+2 Armor
+				+2 Mana Regen
+				-10% Mana Cost
+				'''
+			BonoBaseSummon:
+				'''
+				+5% Summon Damage
+				+10 Max Health
+				+5% Movement Speed
+				+5 Armor
+				+1 Max Minion
+				+2% Whip Range
+				'''
+			BonoAdvBerserker:
+				'''
+				+10% Melee Damage
+				+20 Max Health
+				+15% Movement Speed
+				+2% Life Regen
+				+10% Melee Size
+				+1 Extra Jump
+				'''
+			BonoAdvPaladin:
+				'''
+				+5% Melee Damage
+				+100 Max Health
+				+10 Armor
+				+5% Knockback
+				+10% Potion Sickness Res.
+				'''
+			BonoAdvFrancotirador:
+				'''
+				+20% Ranger Damage
+				-20% Ammo Cost
+				+15% Critical Chance
+				-10 Aggro
+				'''
+			BonoAdvArtillero:
+				'''
+				+10% Ranger Damage
+				+10% Movement Speed
+				+5 Armor
+				-10% Ammo Cost
+				+5% Critical Chance
+				'''
+			BonoAdvBrujo:
+				'''
+				+15% Magic Damage
+				+20 Max Mana
+				+10% Mana Sickness Res.
+				-20% Mana Cost
+				'''
+			BonoAdvHechicero:
+				'''
+				+10% Magic Damage
+				+10 Max Health
+				+20 Max Mana
+				+10% Movement Speed
+				+10 Mana Regen
+				+10% Mana Sickness Res.
+				'''
+			BonoAdvExperto:
+				'''
+				+10% Summon Damage
+				+10 Armor
+				+2 Max Minion
+				+2 Max Sentinel
+				'''
+			BonoAdvInexperto:
+				'''
+				+15% Summon Damage
+				+20 Max Health
+				+10% Movement Speed
+				+10 Armor
+				-1 Max Minion
+				+20% Whip Range
+				+5 Jump Height
+				-2 Aggro
+				+1 Extra Jump
+				'''
+			HoverVida: +5 Base Health
+			HoverMana: +5 Base Mana
+			HoverDef: +1 Defense
+			HoverDmg: +0.1% Damage
+			HoverCrit: +0.1% Critical
+			HoverKb: +0.1% Knockback
+			HoverVel: +1% Speed
+		}
+
+		NPC: {
+			Vida: "HP: "
+			Armor: "Armor: "
+			Dano: "Damage: "
+		}
+
+		Yunque: {
+			Stat0: Magic Damage
+			Stat1: Melee Damage
+			Stat2: Ranger Damage
+			Stat3: Summon Damage
+			Stat4: Knockback
+			Stat5: Critical Chance
+			Stat6: Defense
+			Stat7: Max Mana
+			Stat8: Max Health
+			Stat9: Jump Height
+			Stat10: Aggro+
+			Stat11: Aggro-
+			Stat12: Mana Cost
+			Stat13: Ammo Cost
+			Stat14: Fishing Power
+			Stat15: Grab Range
+			Stat16: Melee Size
+			Stat17: Respawn Time
+			Stat18: Mining Speed
+			Stat19: Move Speed
+			Stat20: Extra Jumps
+			Stat21: Whip Range
+			Stat22: Life Regen
+			Stat23: Mana Regen
+			Stat24: Mana Sick. Res.
+			Stat25: Potion Sick. Res.
+			Stat26: Max Minion
+			Stat27: Max Sentinel
+		}
+	}
+}

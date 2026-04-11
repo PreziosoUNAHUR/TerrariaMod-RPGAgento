@@ -1,0 +1,205 @@
+Mods: {
+	RPGARGENTO: {
+		"Keybinds.Abrir Menu RPG.DisplayName": Abrir Menú RPG
+
+		Items: {
+			espadita: {
+				DisplayName: Espadita
+				Tooltip: Arma de prueba
+			}
+
+			YunqueCaos: {
+				DisplayName: Yunque del Caos
+				Tooltip: Sortea bonificaciones permanentes.
+			}
+		}
+
+		UI: {
+			PuntosDisp: Puntos disponibles: {0}
+			BtnAceptar: Aceptar
+			BtnReset: Resetear
+			NivelMundo: Límite del Mundo: {0}
+			SubeNivel10: (Sube a nivel 10 para desbloquear clase base)
+			SubeNivel25: (Sube a nivel 25 para avanzar tu clase {0})
+			CatAtaque: Estadísticas de Ataque
+			CatDefensa: Estadísticas de Defensa
+			CatExtras: Estadísticas Extras
+			StatVida: Vida
+			StatMana: Maná
+			StatArmadura: Armadura
+			StatMelee: Melee
+			StatRanger: Ranger
+			StatMagic: Mágico
+			StatSummon: Summon
+			StatSuerte: Suerte
+			StatKnockback: Retroceso
+			StatVelMov: Vel. Movimiento
+			ReduccionDano: Reducción de Daño
+			ReduccionAggro: Reducción de Aggro
+			TiempoVuelo: Tiempo de Vuelo
+			AvisoProgreso: ¡El mundo ha progresado! El límite de nivel subió a {0}.
+			ClaseBase:
+				'''
+				Clase Base: {0}
+
+				Bonos Activos:
+				{1}
+				'''
+			EvolucionaClase: Evoluciona tu clase {0}:
+			EresMaestro:
+				'''
+				¡Eres un {0} Maestro!
+
+				Bonos Activos:
+				{1}
+				'''
+			BonoBaseMelee:
+				'''
+				+5% Daño Melee
+				+10 Vida Máxima
+				+10% Velocidad de Movimiento
+				+5 Armadura
+				+2% Knockback
+				'''
+			BonoBaseRanger:
+				'''
+				+5% Daño Ranger
+				+15% Velocidad de Movimiento
+				+2 Armadura
+				+2 Altura de Salto
+				-5% Consumo Munición
+				-2 Aggro
+				+2% Crítico
+				'''
+			BonoBaseMagic:
+				'''
+				+5% Daño Mágico
+				+10 Maná Máximo
+				+10% Velocidad de Movimiento
+				+2 Armadura
+				+2 Regeneración Maná
+				-10% Consumo Maná
+				'''
+			BonoBaseSummon:
+				'''
+				+5% Daño Summon
+				+10 Vida Máxima
+				+5% Velocidad de Movimiento
+				+5 Armadura
+				+1 Max Minion
+				+2% Rango Látigo
+				'''
+			BonoAdvBerserker:
+				'''
+				+10% Daño Melee
+				+20 Vida Máxima
+				+15% Velocidad de Movimiento
+				+2% Regeneración Vida
+				+10% Tamaño Arma Melee
+				+1 Salto Extra
+				'''
+			BonoAdvPaladin:
+				'''
+				+5% Daño Melee
+				+100 Vida Máxima
+				+10 Armadura
+				+5% Knockback
+				+10% Resistencia Enf. Poción
+				'''
+			BonoAdvFrancotirador:
+				'''
+				+20% Daño Ranger
+				-20% Consumo Munición
+				+15% Crítico
+				-10 Aggro
+				'''
+			BonoAdvArtillero:
+				'''
+				+10% Daño Ranger
+				+10% Velocidad Movimiento
+				+5 Armadura
+				-10% Consumo Munición
+				+5% Crítico
+				'''
+			BonoAdvBrujo:
+				'''
+				+15% Daño Mágico
+				+20 Maná Máximo
+				+10% Resistencia Enf. Maná
+				-20% Consumo Maná
+				'''
+			BonoAdvHechicero:
+				'''
+				+10% Daño Mágico
+				+10 Vida Máxima
+				+20 Maná Máximo
+				+10% Velocidad Movimiento
+				+10 Regeneración Maná
+				+10% Resistencia Enf. Maná
+				'''
+			BonoAdvExperto:
+				'''
+				+10% Daño Summon
+				+10 Armadura
+				+2 Max Minion
+				+2 Max Sentinela
+				'''
+			BonoAdvInexperto:
+				'''
+				+15% Daño Summon
+				+20 Vida Máxima
+				+10% Velocidad Movimiento
+				+10 Armadura
+				-1 Max Minion
+				+20% Rango Látigo
+				+5 Altura Salto
+				-2 Aggro
+				+1 Salto Extra
+				'''
+			HoverVida: +5 Vida Base
+			HoverMana: +5 Mana Base
+			HoverDef: +1 Defensa
+			HoverDmg: +0.1% Daño
+			HoverCrit: +0.1% Crítico
+			HoverKb: +0.1% Retroceso
+			HoverVel: +1% Velocidad
+		}
+
+		NPC: {
+			Vida: "Vida: "
+			Armor: "Defensa: "
+			Dano: "Daño: "
+		}
+
+		Yunque: {
+			Stat0: Daño Mágico
+			Stat1: Daño Melee
+			Stat2: Daño Ranger
+			Stat3: Daño Summon
+			Stat4: Knockback
+			Stat5: Crítico
+			Stat6: Defensa
+			Stat7: Max Maná
+			Stat8: Max Vida
+			Stat9: Altura Salto
+			Stat10: Aggro+
+			Stat11: Aggro-
+			Stat12: Consumo Maná
+			Stat13: Consumo Ammo
+			Stat14: Pesca
+			Stat15: Rango Agarre
+			Stat16: Tamaño Melee
+			Stat17: Tiempo Respawn
+			Stat18: Velocidad Minado
+			Stat19: Vel. Movimiento
+			Stat20: Saltos Extra
+			Stat21: Rango Látigo
+			Stat22: Regen. Vida
+			Stat23: Regen. Maná
+			Stat24: Res. Enf. Maná
+			Stat25: Res. Enf. Poción
+			Stat26: Max Minion
+			Stat27: Max Sentinela
+		}
+	}
+}

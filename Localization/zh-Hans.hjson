@@ -1,0 +1,205 @@
+Mods: {
+	RPGARGENTO: {
+		"Keybinds.Abrir Menu RPG.DisplayName": 打开RPG菜单
+
+		Items: {
+			espadita: {
+				DisplayName: 小剑
+				Tooltip: 测试武器
+			}
+
+			YunqueCaos: {
+				DisplayName: 混沌铁砧
+				Tooltip: 使用以获取永久属性。
+			}
+		}
+
+		UI: {
+			PuntosDisp: 可用点数: {0}
+			BtnAceptar: 接受
+			BtnReset: 重置
+			NivelMundo: 世界等级上限: {0}
+			SubeNivel10: (达到10级以解锁基础职业)
+			SubeNivel25: (达到25级以进阶您的{0}职业)
+			CatAtaque: 攻击属性
+			CatDefensa: 防御属性
+			CatExtras: 额外属性
+			StatVida: 生命
+			StatMana: 魔力
+			StatArmadura: 护甲
+			StatMelee: 近战
+			StatRanger: 远程
+			StatMagic: 魔法
+			StatSummon: 召唤
+			StatSuerte: 幸运
+			StatKnockback: 击退
+			StatVelMov: 移动速度
+			ReduccionDano: 伤害减免
+			ReduccionAggro: 仇恨减少
+			TiempoVuelo: 飞行时间
+			AvisoProgreso: 世界已取得进展！等级上限提高至 {0}。
+			ClaseBase:
+				'''
+				基础职业: {0}
+
+				当前加成:
+				{1}
+				'''
+			EvolucionaClase: 进阶您的 {0} 职业:
+			EresMaestro:
+				'''
+				您是一位 {0} 大师！
+
+				当前加成:
+				{1}
+				'''
+			BonoBaseMelee:
+				'''
+				+5% 近战伤害
+				+10 最大生命
+				+10% 移动速度
+				+5 护甲
+				+2% 击退
+				'''
+			BonoBaseRanger:
+				'''
+				+5% 远程伤害
+				+15% 移动速度
+				+2 护甲
+				+2 跳跃高度
+				-5% 弹药消耗
+				-2 仇恨
+				+2% 暴击率
+				'''
+			BonoBaseMagic:
+				'''
+				+5% 魔法伤害
+				+10 最大魔力
+				+10% 移动速度
+				+2 护甲
+				+2 魔力再生
+				-10% 魔力消耗
+				'''
+			BonoBaseSummon:
+				'''
+				+5% 召唤伤害
+				+10 最大生命
+				+5% 移动速度
+				+5 护甲
+				+1 最大召唤物
+				+2% 鞭子范围
+				'''
+			BonoAdvBerserker:
+				'''
+				+10% 近战伤害
+				+20 最大生命
+				+15% 移动速度
+				+2% 生命再生
+				+10% 近战武器尺寸
+				+1 额外跳跃
+				'''
+			BonoAdvPaladin:
+				'''
+				+5% 近战伤害
+				+100 最大生命
+				+10 护甲
+				+5% 击退
+				+10% 耐药水疾病
+				'''
+			BonoAdvFrancotirador:
+				'''
+				+20% 远程伤害
+				-20% 弹药消耗
+				+15% 暴击率
+				-10 仇恨
+				'''
+			BonoAdvArtillero:
+				'''
+				+10% 远程伤害
+				+10% 移动速度
+				+5 护甲
+				-10% 弹药消耗
+				+5% 暴击率
+				'''
+			BonoAdvBrujo:
+				'''
+				+15% 魔法伤害
+				+20 最大魔力
+				+10% 耐魔力疾病
+				-20% 魔力消耗
+				'''
+			BonoAdvHechicero:
+				'''
+				+10% 魔法伤害
+				+10 最大生命
+				+20 最大魔力
+				+10% 移动速度
+				+10 魔力再生
+				+10% 耐魔力疾病
+				'''
+			BonoAdvExperto:
+				'''
+				+10% 召唤伤害
+				+10 护甲
+				+2 最大召唤物
+				+2 最大哨兵
+				'''
+			BonoAdvInexperto:
+				'''
+				+15% 召唤伤害
+				+20 最大生命
+				+10% 移动速度
+				+10 护甲
+				-1 最大召唤物
+				+20% 鞭子范围
+				+5 跳跃高度
+				-2 仇恨
+				+1 额外跳跃
+				'''
+			HoverVida: +5 基础生命
+			HoverMana: +5 基础魔力
+			HoverDef: +1 护甲
+			HoverDmg: +0.1% 伤害
+			HoverCrit: +0.1% 暴击
+			HoverKb: +0.1% 击退
+			HoverVel: +1% 速度
+		}
+
+		NPC: {
+			Vida: "生命: "
+			Armor: "防御: "
+			Dano: "伤害: "
+		}
+
+		Yunque: {
+			Stat0: 魔法伤害
+			Stat1: 近战伤害
+			Stat2: 远程伤害
+			Stat3: 召唤伤害
+			Stat4: 击退
+			Stat5: 暴击率
+			Stat6: 防御
+			Stat7: 最大魔力值
+			Stat8: 最大生命值
+			Stat9: 跳跃高度
+			Stat10: 仇恨+
+			Stat11: 仇恨-
+			Stat12: 魔力消耗
+			Stat13: 弹药消耗
+			Stat14: 渔力
+			Stat15: 拾取范围
+			Stat16: 近战武器尺寸
+			Stat17: 复活时间
+			Stat18: 挖掘速度
+			Stat19: 移动速度
+			Stat20: 额外跳跃
+			Stat21: 鞭子范围
+			Stat22: 生命再生
+			Stat23: 魔力再生
+			Stat24: 耐魔力疾病
+			Stat25: 耐药水疾病
+			Stat26: 最大召唤栏
+			Stat27: 最大哨兵栏
+		}
+	}
+}
